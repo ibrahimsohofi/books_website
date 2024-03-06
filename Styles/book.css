@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(122, 170, 243);
+}
+.header{
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 40px;
+}
+.header span{
+    margin: 3px;
+    color: rgb(66, 63, 63);
+    margin-top: 4px;
+    width: 7px;
+   font-size: 20px;
+   font-weight: bolder;
+}
+.arrow{
+    width: 15px;
+    height: 15px;
+    fill: white;
+}
+.header a{
+    color: rgb(4, 27, 131);
+    font-weight: bold;
+    font-size: 20px;
+    margin: 3px;
+}
+.container-main{
+    width: 94%;
+    margin: 0 auto;
+    padding: 4px;
+    border: 0.13em rgba(59, 58, 58, 0.733) solid;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.book-thumb{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+}
+.book-thumb button{
+    height: 60px;
+    margin: 20px 0;
+    background-color: #1e3a8a;
+    border: none;
+    border-radius: 10px;
+}
+.book-thumb img{
+    border-radius: 10px;
+    box-shadow:5px 5px 10px 5px rgba(80, 79, 79, 0.589);
+}
+.book-thumb a{
+    color: whitesmoke;
+    font-size: 2.3em;
+}
+.book-descp{
+    padding: 10px;
+    margin-left: 15px;
+}
+.book-descp a{
+    color: rgb(5, 5, 133);
+}
+.book-descp h3{
+    margin: -6px 10px;
+    font-size: 1.4em;
+}
+.book-descp .int-book{
+    padding: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+
+}
+.book-descp span,time{
+    font-size: 1.2em;
+}
+.book-descp p{
+    font-size: 1.2rem;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.share-btn{
+    height: 40px;
+    width: 150px !important;
+    margin-left:70px  ;
+    display: inline-block;
+    background-color: #001652ef;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 40px;
+    padding: 5px;
+} 
+.share-btn:hover{
+    transform: scale(1.1);
+    transition:all 0.3s ease;
+    box-shadow: 2px 2px 10px 3px rgb(17, 17, 17);
+}
+.share-btn a{
+    color: whitesmoke;
+    font-size: 1.5em;
+   
+}
+.share-btn a:hover{
+    color: whitesmoke;
+    font-size: 1.5em;
+}

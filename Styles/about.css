@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #ddd6fe;
+}
+main{
+    
+    position: relative;
+}
+h1{
+    text-align: center;
+    margin: 10px;
+}
+body>hr{
+    background-color: grey;
+    border: none;
+    height: 1.5px;
+    margin: 10px 0px;
+}
+.pages{
+    top: 20px;
+    position: relative;
+    margin:  10px;
+}
+.pages a,span{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.containner{
+   width: 60%;
+   height: 1000px;
+   padding: 15px;
+   margin: 10px;
+   border: 3px solid #2C3761;
+   border-radius: 15px;
+}
+.containner p{
+    font-size: 17px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.containner b{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.containner h3{
+    text-align: center;
+    margin-top: 30px;
+}
+.asked{
+    display: flex;
+    flex-direction: column;
+    justify-self: end;
+    align-self: end;
+    margin: 10px;
+    padding: 10px;
+}
+.asked h4{
+    border: 2px solid rgba(0, 119, 255, 0.712);
+    border-radius: 10px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 7px;
+    font-size: 20px;
+    margin: 10px 0px;
+    color: #1e40af;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#big-img{
+    width: 550px;
+    height: 550px;
+    padding: 10px;
+}
+.log-img{
+    width: 50%;
+
+}
+.maincontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.asked  h3{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.asked p{
+    visibility: hidden;
+    overflow: hidden;
+    position: absolute;
+    background-color: #0c4a6e;
+    margin: 10px 5px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.asked div:hover h4{
+   background-color: white;
+   color: rgb(53, 49, 49);
+}
+.asked div:hover p{
+    visibility:visible;
+    overflow: visible;
+    position: relative;
+    color: #fff;
+    transform: scale(1.06);
+    transition: visibility, 0.5s ease-in;
+}
